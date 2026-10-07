@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Metrics GA4](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-ga4/2.x/art/jeffersongoncalves-filament-metrics-ga4.png)
+![Filament Metrics GA4](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-ga4/3.x/art/jeffersongoncalves-filament-metrics-ga4.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-metrics-ga4.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-ga4)
-[![Tests](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-ga4/tests.yml?branch=2.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-ga4/actions?query=workflow%3ATests+branch%3A2.x)
+[![Tests](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-ga4/tests.yml?branch=3.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-ga4/actions?query=workflow%3ATests+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-metrics-ga4.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-ga4)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-metrics-ga4.svg?style=flat-square)](LICENSE.md)
 
@@ -30,7 +30,7 @@ Built on top of [jeffersongoncalves/laravel-metrics-ga4](https://github.com/jeff
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-metrics-ga4:"^2.0"
+composer require jeffersongoncalves/filament-metrics-ga4:"^3.0"
 ```
 
 Publish the settings migrations and run them:
@@ -92,7 +92,7 @@ With `widgets(false)` you can still place the widget classes on any page yoursel
 ## Requirements
 
 - PHP 8.2 or higher (with the OpenSSL extension)
-- Filament 4.x
+- Filament 5.x
 
 ## Testing
 

@@ -14,9 +14,9 @@ Use this skill when:
 
 ## Package Overview
 
-- **Package**: `jeffersongoncalves/filament-metrics-ga4` (branch `2.x` for Filament 4.x)
+- **Package**: `jeffersongoncalves/filament-metrics-ga4` (branch `3.x` for Filament 5.x)
 - **Namespace**: `JeffersonGoncalves\Filament\MetricsGA4`
-- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^2.0`, `jeffersongoncalves/laravel-metrics-ga4:^1.0`
+- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^3.0`, `jeffersongoncalves/laravel-metrics-ga4:^1.0`
 - **Service Provider**: `JeffersonGoncalves\Filament\MetricsGA4\GA4MetricsServiceProvider`
 
 ## Version Compatibility

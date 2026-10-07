@@ -6,7 +6,7 @@ Google Analytics 4 dashboard widgets for Filament with a settings page powered b
 
 @verbatim
 <code-snippet name="Install the plugin" lang="bash">
-composer require jeffersongoncalves/filament-metrics-ga4:"^2.0"
+composer require jeffersongoncalves/filament-metrics-ga4:"^3.0"
 php artisan vendor:publish --tag=metrics-ga4-settings-migrations
 php artisan migrate
 </code-snippet>
