@@ -14,7 +14,7 @@ abstract class BreakdownTableWidget extends Widget
 {
     use InteractsWithGA4;
 
-    protected static string $view = 'filament-metrics-ga4::widgets.breakdown-table';
+    protected string $view = 'filament-metrics-ga4::widgets.breakdown-table';
 
     protected int|string|array $columnSpan = 1;
 
