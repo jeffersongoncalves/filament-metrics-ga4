@@ -1,0 +1,3 @@
+providers:
+  - JeffersonGoncalves\MetricsGA4\MetricsGA4ServiceProvider
+  - JeffersonGoncalves\Filament\MetricsGA4\GA4MetricsServiceProvider

@@ -1,0 +1,51 @@
+# ============================================
+# Filament Plugin - Create Plugin Form
+# jeffersongoncalves - filamentphp.com
+# ============================================
+
+# --- Details ---
+name: "Metrics GA4"
+slug: "metrics-ga4"
+github_repository: "jeffersongoncalves/filament-metrics-ga4"
+description: "Filament plugin for Google Analytics 4 metrics - dashboard widgets for pageviews, visitors, top pages, sources, browsers, countries and devices."
+
+# --- Images ---
+# Anexe os arquivos de imagem junto com este YAML no chat
+image: "jeffersongoncalves-filament-metrics-ga4.png"
+thumbnail: ""
+
+# --- Compatibility & Features ---
+versions:
+  - "v3"
+  - "v4"
+  - "v5"
+
+categories:
+  - "Analytics"
+  - "Widget"
+
+dark_theme_support: true
+translation_support: true
+
+# --- Documentation ---
+documentation_url: ""
+
+versioned_documentation:
+  - version: "v3"
+    url: "https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-ga4/1.x/README.md"
+  - version: "v4"
+    url: "https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-ga4/2.x/README.md"
+  - version: "v5"
+    url: "https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-ga4/3.x/README.md"
+
+documentation_content: ""
+
+# --- URLs ---
+website: ""
+discord: ""
+
+# --- Pricing ---
+anystack_product_id: ""
+
+# --- Acao Final ---
+action: "draft"
