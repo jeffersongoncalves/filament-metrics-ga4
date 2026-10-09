@@ -7,6 +7,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Pages\SettingsPage;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\MetricsGA4\Settings\GA4Settings;
 
 class GA4MetricsSettingsPage extends SettingsPage
@@ -17,7 +18,7 @@ class GA4MetricsSettingsPage extends SettingsPage
 
     public static function getNavigationGroup(): string|\UnitEnum|null
     {
-        return __('filament-metrics-ga4::metrics-ga4.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-metrics-ga4') ?? __('filament-metrics-ga4::metrics-ga4.navigation_group');
     }
 
     public static function getNavigationLabel(): string
